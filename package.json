@@ -1,6 +1,5 @@
 {
     "name": "@gwservices/borosr_npm_test",
-    "private": false,
     "version": "0.0.5",
     "module": "./dist/hello.es.js",
     "main": "./dist/hello.umd.js",
