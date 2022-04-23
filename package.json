@@ -1,9 +1,10 @@
 {
     "name": "borosr_npm_test",
     "private": false,
-    "version": "0.0.4",
+    "version": "0.0.5",
     "module": "./dist/hello.es.js",
     "main": "./dist/hello.umd.js",
+    "types": "./dist/main.d.ts",
     "files": [
         "dist",
         "src",
@@ -17,7 +18,7 @@
     },
     "license": "UNLICENSED",
     "scripts": {
-        "build": "tsc && vite build",
+        "build": "vite build && tsc",
         "changes:add": "npx changeset",
         "dev": "vite",
         "eslint": "eslint --ext .js,.ts,.svelte .",
