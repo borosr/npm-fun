@@ -1,12 +1,13 @@
 {
     "name": "borosr_npm_test",
     "private": false,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "module": "dist/hello.es.js",
     "main": "dist/hello.umd.js",
     "files": [
         "dist",
-        "src"
+        "src",
+        "index.*"
     ],
     "license": "UNLICENSED",
     "scripts": {
