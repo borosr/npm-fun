@@ -16,6 +16,7 @@
         "checkJs": true,
         "declaration": true,
         "outDir": "dist",
+        "declarationDir": "dist",
         "emitDeclarationOnly": true,
     },
     "include": [

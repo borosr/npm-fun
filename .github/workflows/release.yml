@@ -33,8 +33,6 @@ jobs:
                   cat << EOF > "$HOME/.npmrc"
                     //registry.npmjs.org/:_authToken=$NPM_TOKEN
                   EOF
-                  cp $HOME/.npmrc dist
-                  ls -l
                   npm publish
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

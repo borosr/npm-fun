@@ -7,6 +7,7 @@ export default defineConfig({
             entry: path.resolve(__dirname, 'src/main.ts'),
             name: 'npm fun',
             fileName: (format) => `hello.${format}.js`
-        }
+        },
+        sourcemap: true
     }
 });
